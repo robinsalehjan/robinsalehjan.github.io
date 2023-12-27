@@ -102,6 +102,6 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:robinsalehjan/robinsj.com.git
-  branch: "production"
+  repo: git@github.com:robinsalehjan/robinsalehjan.github.io.git
+  branch: live
   message: "Deploy: {{ now('YYYY-MM-DD HH:mm:ss') }}"
